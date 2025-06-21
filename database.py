@@ -30,6 +30,3 @@ sheet = spreadsheet.sheet1
 # Lê todos os valores da planilha
 dados = sheet.get_all_records()
 
-# Mostra os dados
-for linha in dados:
-    print(linha)
